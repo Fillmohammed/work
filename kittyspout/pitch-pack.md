@@ -178,6 +178,43 @@ Try, in order:
    it (LinkedIn posts, case studies mentioning KittySpout), pitch the agency too: they need concepts and
    scripts.
 
+### Update: no names found, so route through support
+
+What we know: about a **$22M+ revenue brand** with a tiny team (~3 on LinkedIn) and a job post for a DTC
+Operations Manager who "works closely with the founder". At that size, support is read by a few people who
+talk to the founder daily, so a forwardable email works.
+
+**Support email** (to the address on kittyspout.com/pages/contact-us):
+
+> Subject: For whoever runs your Facebook ads (+ a refund-wording issue)
+>
+> Hi team,
+>
+> Could you forward this to whoever manages KittySpout's Facebook/Instagram ads?
+>
+> Two things:
+> 1. Some live ads promise a "365-day full refund", but your refund policy says full refunds for 45 days,
+>    then exchange or store credit. That gap probably lands on your support inbox as angry customers.
+> 2. I put together 3 ad concepts for buyers whose cat already ignored a fountain. That angle isn't in your
+>    current ads. 4-min walkthrough: [Loom link]
+>
+> Thanks!
+> [Name], direct-response creative strategist
+> [one-line proof]
+
+Why this works: point 1 is a problem *support* feels, so they have a reason to forward it. Point 2 is your
+pitch. Don't ask "who handles hiring". It reads like a job application and gets "we're not hiring".
+
+**Same week, other channels:**
+- Instagram DM to @kittyspout and a Facebook page message: a 2-line version with the Loom link.
+- Subscribe to their email list. The sender name or signature often names the founder or marketer.
+- Look at the full DTC Operations Manager job post (and its source on the brand's careers page or LinkedIn)
+  for a hiring manager's name.
+- Reply-tracking: if support answers, ask for the name and email of the person to send it to directly.
+
+**Time-box:** one more day on finding contacts, then send through support + DM and move on to the next brand.
+The work isn't wasted either way. It's now a portfolio piece you can show other brands (anonymised if needed).
+
 ## 7. Before sending: check list
 
 - [ ] Use only real customer quotes, word for word, and attribute them ("Trustpilot review").
