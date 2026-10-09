@@ -40,10 +40,39 @@ have done, in their vocabulary:
 | Takes ideas from other industries | "Cross-industry swipe → new angles your competitors aren't running." |
 | Deliverability + email | Bonus: "I can also make sure the people your ads bring in get followed up properly." |
 
-**Positioning line** (adjust to taste):
+### Positioning: lead with who you beat and how long it lasted, not how many ads
 
-> "Direct-response creative strategist. I wrote the 3 YouTube ads that held the top 3 spots in a high-ticket
-> account for 3 years and drove 7 figures. I find the angle that beats your control."
+The story: hired to manage the email list → started writing ads on the side → those ads beat the scripts of
+**two paid ad agencies** (Adspend and IRBC; confirm both names before using them) → they took the #1, #2 and
+#3 spots, held them for **3+ years**, got **millions of views** and drove **7 figures**.
+
+Never lead with "3 ads". Lead with what they *beat* and how long they *lasted*. In direct response most
+ads fail and most winners fatigue within weeks, so a control that holds for years against agency-produced
+challengers is rare.
+
+**One-liner (email signature, LinkedIn headline):**
+> Direct-response creative strategist. My concepts beat two ad agencies and held the top 3 spots in a
+> 7-figure account for 3+ years.
+
+**Short bio (cold email, applications):**
+> I was hired to run email for a high-ticket education company. Two ad agencies were writing the ads. I
+> started writing concepts on the side, and mine took the #1, #2 and #3 spots in the account and held them
+> for 3+ years against every new agency variant. Millions of views, 7 figures in revenue. Across the ads and
+> email funnel, the business did $4.6M+.
+
+**The "underdog" hook (for calls and Looms):**
+> "I wasn't even the ad guy. I was the email guy. I knew the customer better than the agencies did because
+> I read every reply on the list, and that's why my angles won."
+
+This also explains *how* you find winners (customer research first), which is what creative strategist
+buyers want to hear.
+
+### Proof checklist (gather before you send anything)
+- [ ] Total ads/concepts you wrote, not only the 3 winners: "I wrote X concepts; 3 became controls".
+- [ ] Spend behind your ads, views, revenue attributed, and how long each held #1–#3.
+- [ ] Screenshots: the ads manager or YouTube ranking showing your ads on top, with client numbers blurred if needed.
+- [ ] Confirm the agency names, and whether you're allowed to name them (or say "two outside ad agencies").
+- [ ] Richard's permission to name him, plus a 2–3 sentence testimonial that mentions the agencies.
 
 Before you use it:
 - **Ask Richard** if you can name him and show the ads (or at least quote the numbers). Ask him for a short
@@ -173,7 +202,8 @@ Use the same audit when you apply to jobs. It beats a CV.
 >
 > I put together 3 concepts that attack that from new angles, including a finished script: [Loom link]
 >
-> Background: I wrote the 3 ads that held the top 3 spots in a 7-figure direct-response account for 3 years.
+> Background: I was hired to run email, but the ad concepts I wrote beat two agencies and held the top 3 spots
+> in a 7-figure account for 3+ years.
 >
 > Worth a quick chat?
 >
