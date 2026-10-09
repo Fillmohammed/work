@@ -101,7 +101,24 @@ Before you use it:
 
 ## 5. The niche: one main road, one side road
 
-### Main road: health & wellness DTC brands selling to people 35+
+### Decision (narrowed): menopause / midlife women's health only
+
+Niche by **customer**, not by ingredient. One customer (women ~40–60 going through perimenopause and
+menopause) buys many products: supplements, probiotics, cortisol and sleep products, joint support,
+skincare, intimate-health devices. Research on her carries over to every brand. You only add 2–3 hours of
+brand-specific research each time.
+
+Menopause brands active in the Meta ad data (Parker, Oct 2026): Osteva, The BB Company (Provitalize /
+Radiancy), Rheal, Her Vitality, Halsten, Stripes Beauty, Dr. Anna Cabeca / Velve, Joylux, Nuora, Womaness,
+Trybello, WelleCo, Qunol, Bioma, Elektra Health. Joint pain (Osteva, Halsten) and bloating (Nuora, Bioma)
+overlap because they're menopause symptoms too.
+
+Build once, reuse forever: a **menopause research bible** with symptoms, her exact words, what she has
+tried (HRT fears, dismissive doctors, diets that stopped working), beliefs, the mechanisms competitors use
+(estrogen/cortisol, gut-hormone link), a swipe file of competitor ads, a hook bank, and compliance
+guardrails.
+
+### Main road (original, broader): health & wellness DTC brands selling to people 35+
 
 Supplements, gut health, sleep, joint and pain relief, menopause, skincare for mature skin, functional foods.
 
