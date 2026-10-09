@@ -7,37 +7,32 @@ Replace anything in [brackets]. Only claim what is true and what you can show.
 
 ---
 
-## 1. Professional title (66 characters)
+## 1. Professional title
 
-`7-Figure Direct-Response Ad Scriptwriter & DTC Creative Strategist`
+`Creative Strategist & 7-Figure Direct-Response Ad Scriptwriter`
 
-## 2. Overview (the first ~200 characters show in search)
+## 2. Overview (bio formula: what you do + results + personality)
 
-> I write ads that become the control and stay there. My YouTube ad scripts beat every script from two
-> paid ad agencies and held the #1, #2 and #3 spots for 3+ years: 7 figures in revenue, millions of views.
+> I write ads that win, and keep winning.
 >
-> Most winning ads burn out in a few weeks. Mine ran for over three years.
+> My ad scripts generated 7 figures in revenue, beat every script from two paid ad agencies, and held the
+> top 3 spots in the account for over 3 years. Most winning ads burn out in weeks.
 >
-> How it happened: I was hired to run email for a high-ticket property education business. Two agencies
-> were paid to write the ads. Running the list meant I knew the customers' words and objections better
-> than anyone, so I started writing concepts on the side. Mine took the top 3 spots, and no agency variant
-> beat them. Together, those ads and the email and book-a-call funnel I built did $4.6M+.
+> What I do:
+> → Find the angle: deep customer research (reviews, comments, Reddit) to uncover what actually makes
+>   people buy
+> → Turn it into concepts: different reasons to buy, not five versions of the same hook
+> → Write the scripts: UGC, founder-led, VSL-style, statics and advertorials
+> → Brief it: clear briefs your editors and creators can shoot from
+> → Test and iterate: read hook rate, hold rate, CTR, CPA and ROAS, then double down on what works
+> → Bonus: email flows that turn clicks into buyers ($4.6M+ generated with ads + email for one client)
 >
-> Now I bring the same process to DTC brands, especially health, wellness and women's health:
-> - Research first: reviews, Reddit, comments and support tickets, to find the words and beliefs your
->   buyers already have
-> - Concepts, not tweaks: ad families that test different reasons to buy, not five versions of one hook
-> - Scripts: UGC, founder-led and VSL-style video, plus statics and advertorials
-> - Briefs your editors and creators can run with
-> - Test plans and reading results: hook rate, hold rate, CTR, CPA, ROAS
-> - Email and retention flows, so the people your ads bring in actually buy
+> A bit about me: I started as the email guy. Nobody asked me to write ads. I did it anyway, because I
+> knew the customers' words better than anyone. That's still how I work: customer first, copy second.
 >
-> How we start: a fixed-price test of 3 concepts with research, hooks, full scripts and briefs, delivered
-> in 5–7 days. If the work is good, we go monthly.
+> Let's start with a small test: 3 concepts, researched, scripted and briefed in 5–7 days.
 >
-> I keep claims inside Meta's health ad policy, with no cure or treatment promises.
->
-> Send me your brand and your current best ad. I'll tell you what I'd test next.
+> Send me your best-performing ad and I'll tell you what I'd test next.
 
 ## 3. Skills (pick up to 15; only tools you have really used)
 
