@@ -11,28 +11,33 @@ Replace anything in [brackets]. Only claim what is true and what you can show.
 
 `Creative Strategist & 7-Figure Direct-Response Ad Scriptwriter`
 
-## 2. Overview (bio formula: what you do + results + personality)
+## 2. Overview
 
-> I write ads that win, and keep winning.
+> My ad scripts generated 7 figures in revenue, beat every script from two paid ad agencies (one of them a
+> name you'd recognize), and held the top 3 spots in the account for over 3 years.
 >
-> My ad scripts generated 7 figures in revenue, beat every script from two paid ad agencies, and held the
-> top 3 spots in the account for over 3 years. Most winning ads burn out in weeks.
+> How I work:
 >
-> What I do:
-> → Find the angle: deep customer research (reviews, comments, Reddit) to uncover what actually makes
->   people buy
-> → Turn it into concepts: different reasons to buy, not five versions of the same hook
-> → Write the scripts: UGC, founder-led, VSL-style, statics and advertorials
-> → Brief it: clear briefs your editors and creators can shoot from
-> → Test and iterate: read hook rate, hold rate, CTR, CPA and ROAS, then double down on what works
-> → Bonus: email flows that turn clicks into buyers ($4.6M+ generated with ads + email for one client)
+> 1. Account audit: what's winning, what's not, and why. Product, numbers, past performance.
+> 2. Reputation analysis: I start where your customers start. Before anyone buys, they Google you, check
+>    TikTok and read your reviews. I take the same path: press, review sites, blogs, Reddit, organic social
+>    and ad comments. It shows how social proof helps or hurts conversions and what stops people from
+>    buying, and it often points straight to the next winning ad.
+> 3. Customer and competitor research: mining reviews and testimonials for the exact words buyers use, and
+>    studying competitors' ads and their customers' complaints.
+> 4. Concepts: iterations on what already wins, new concepts, and personas you're not reaching yet.
+> 5. Scripts in every format: UGC, founder-led, AI animation, VSL-style, statics, advertorials, B-roll +
+>    voiceover.
+> 6. Briefs: clear briefs editors and creators can shoot from.
+> 7. Test and iterate: hook rate, hold rate, engagement, spend, frequency, CPM, CTR, CPA, ROAS. Double down
+>    on winners, cut the rest.
 >
-> A bit about me: I started as the email guy. Nobody asked me to write ads. I did it anyway, because I
-> knew the customers' words better than anyone. That's still how I work: customer first, copy second.
+> Bonus: email flows that convert more of the traffic you already paid for, so your overall cost per
+> customer drops.
 >
-> Let's start with a small test: 3 concepts, researched, scripted and briefed in 5–7 days.
->
-> Send me your best-performing ad and I'll tell you what I'd test next.
+> About me: I started as the email guy, working with high-ticket coaches and consultants. Nobody asked me
+> to write ads. I wrote them anyway because I love a challenge, and they kept winning. Creative strategy is
+> where I've put my focus now: it's the hardest, most fun puzzle in marketing.
 
 ## 3. Skills (pick up to 15; only tools you have really used)
 
