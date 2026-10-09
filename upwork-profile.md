@@ -29,8 +29,7 @@ Replace anything in [brackets]. Only claim what is true and what you can show.
 > 5. Scripts in every format: UGC, founder-led, AI animation, VSL-style, statics, advertorials, B-roll +
 >    voiceover.
 > 6. Briefs: clear briefs editors and creators can shoot from.
-> 7. Test and iterate: hook rate, hold rate, engagement, spend, frequency, CPM, CTR, CPA, ROAS. Double down
->    on winners, cut the rest.
+> 7. Test and iterate: read the performance data, double down on winners, cut the losers.
 >
 > Bonus: email flows that convert more of the traffic you already paid for, so your overall cost per
 > customer drops.
