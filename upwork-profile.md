@@ -7,41 +7,37 @@ Replace anything in [brackets]. Only claim what is true and what you can show.
 
 ---
 
-## 1. Professional title (max 70 characters)
+## 1. Professional title (66 characters)
 
-**Pick one:**
-- `DTC Creative Strategist & Direct-Response Ad Scriptwriter` (recommended)
-- `Direct-Response Ad Scriptwriter | Meta & YouTube Ads | DTC`
-- `Creative Strategist for Health & Wellness DTC Brands`
+`7-Figure Direct-Response Ad Scriptwriter & DTC Creative Strategist`
 
-## 2. Overview (the first 2 lines show in search, so they must sell)
+## 2. Overview (the first ~200 characters show in search)
 
-> My ad scripts beat two outside ad agencies and held the #1, #2 and #3 spots in a 7-figure account for
-> over 3 years, with millions of views.
+> I write ads that become the control and stay there. My YouTube ad scripts beat every script from two
+> paid ad agencies and held the #1, #2 and #3 spots for 3+ years: 7 figures in revenue, millions of views.
 >
-> I'm a direct-response creative strategist and ad scriptwriter. I find the angle that beats your control.
+> Most winning ads burn out in a few weeks. Mine ran for over three years.
 >
-> I was hired to run email for a UK high-ticket education company. Two agencies were writing the ads. I
-> started writing concepts on the side, and mine became the top 3 ads in the account and stayed there for
-> 3+ years while every new agency variant tried to beat them. Across ads and email, the business did
-> $4.6M+.
+> How it happened: I was hired to run email for a high-ticket property education business. Two agencies
+> were paid to write the ads. Running the list meant I knew the customers' words and objections better
+> than anyone, so I started writing concepts on the side. Mine took the top 3 spots, and no agency variant
+> beat them. Together, those ads and the email and book-a-call funnel I built did $4.6M+.
 >
-> **What I do for DTC brands (health, wellness and women's health):**
-> - Customer research from reviews, Reddit and comments, to find the language and angles your buyers use
-> - Concepts and ad "families" that test different reasons to buy, not small hook tweaks
-> - Scripts for UGC, founder-led and VSL-style video ads, plus static and advertorial copy
+> Now I bring the same process to DTC brands, especially health, wellness and women's health:
+> - Research first: reviews, Reddit, comments and support tickets, to find the words and beliefs your
+>   buyers already have
+> - Concepts, not tweaks: ad families that test different reasons to buy, not five versions of one hook
+> - Scripts: UGC, founder-led and VSL-style video, plus statics and advertorials
 > - Briefs your editors and creators can run with
-> - Testing plans and reading results (hook rate, hold rate, CTR, CPA, ROAS)
+> - Test plans and reading results: hook rate, hold rate, CTR, CPA, ROAS
 > - Email and retention flows, so the people your ads bring in actually buy
 >
-> **How I start:** a small, fixed-price test. Example: 3 concepts → research, hooks, full scripts and
-> briefs, delivered in 5–7 days. If the work is good, we continue monthly.
+> How we start: a fixed-price test of 3 concepts with research, hooks, full scripts and briefs, delivered
+> in 5–7 days. If the work is good, we go monthly.
 >
-> I write claims that stay inside Meta's health ad rules. I don't promise to cure or treat anything.
+> I keep claims inside Meta's health ad policy, with no cure or treatment promises.
 >
-> Send me your brand and your current best ad, and I'll tell you what I'd test next.
-
-*(About 1,500 characters. Upwork allows up to 5,000.)*
+> Send me your brand and your current best ad. I'll tell you what I'd test next.
 
 ## 3. Skills (pick up to 15; only tools you have really used)
 
@@ -76,8 +72,8 @@ Add earlier email or copywriting clients if you had them.
 
 ## 6. Hourly rate
 
-Start at **$40/hr**, and quote fixed-price for most jobs (e.g. $400–800 for a 3-concept test pack).
-Raise to $60–75/hr after 2–3 jobs with 5-star reviews. Your first reviews are worth more than the rate.
+Set **$65/hr**. Sell most work as fixed-price packages: a 3-concept test pack at $750–1,200, then a
+monthly retainer. Raise to $85–100/hr after 3 jobs with 5-star reviews.
 
 ## 7. Other fields
 
