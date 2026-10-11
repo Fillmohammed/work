@@ -1,0 +1,511 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Project 1% Consumer Psychology Worksheet</title>
+<style>
+@page { size: A4; margin: 0; }
+:root{
+  --ink:#101826; --ink2:#3a4352; --mute:#6b7280; --line:#d9dce2;
+  --navy:#0b1f33; --gold:#d6a634; --goldsoft:#f6ecd2; --paper:#f5f2ea;
+  --rust:#a8461f; --rustsoft:#fbeee7; --green:#2e6b4c; --greensoft:#e9f2ec;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{background:#fff}
+body{font-family:"Inter",sans-serif;color:var(--ink);font-size:8.6pt;line-height:1.42;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+.page{width:210mm;height:297mm;position:relative;overflow:hidden;page-break-after:always;padding:22mm 16mm 18mm 16mm}
+.page:last-child{page-break-after:auto}
+.topbar{position:absolute;top:0;left:0;right:0;height:11mm;background:var(--navy);display:flex;align-items:center;justify-content:space-between;padding:0 16mm;color:#cdd3dc;font-size:7pt;letter-spacing:.02em}
+.topbar b{color:#fff;font-weight:600}
+.mono{display:inline-flex;align-items:center;justify-content:center;width:6.5mm;height:6.5mm;border:1.2px solid var(--gold);color:var(--gold);font-weight:700;font-size:6.5pt;letter-spacing:.04em;margin-right:2.5mm}
+.foot{position:absolute;bottom:7mm;left:16mm;right:16mm;display:flex;justify-content:space-between;color:var(--mute);font-size:6.8pt;border-top:1px solid var(--line);padding-top:2.2mm}
+.pill{display:inline-block;background:var(--gold);color:var(--navy);font-weight:700;font-size:6.8pt;letter-spacing:.12em;padding:1.3mm 3.2mm;border-radius:10mm}
+h1{font-family:"Inter Display","Inter",sans-serif;font-weight:600;font-size:19pt;letter-spacing:-.01em;margin:3mm 0 1.2mm;color:var(--navy)}
+h2{font-size:9.6pt;font-weight:700;color:var(--navy);margin:4mm 0 1.6mm}
+h3{font-size:8.4pt;font-weight:700;color:var(--navy);margin:0 0 .8mm}
+.lead{color:var(--ink2);font-size:8.8pt;margin-bottom:3mm}
+.muted{color:var(--mute)}
+.small{font-size:7.4pt}
+p+p{margin-top:1.4mm}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:3mm}
+.grid3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:3mm}
+.card{border:1px solid var(--line);border-radius:2.2mm;padding:2.6mm 3mm;background:#fff}
+.card.sel{border:1.4px solid var(--navy);background:#fbfaf6}
+.card.sec{border:1px dashed #9aa3b2}
+.answer{background:var(--paper);border-radius:2.2mm;padding:3mm 3.4mm;margin-top:1.6mm}
+.diag{background:var(--rustsoft);border-left:3px solid var(--rust);border-radius:0 2mm 2mm 0;padding:2.6mm 3.2mm;margin-top:3mm}
+.diag .lab{color:var(--rust);font-weight:700;font-size:6.8pt;letter-spacing:.12em;text-transform:uppercase;margin-bottom:.8mm;display:block}
+.rec{background:var(--greensoft);border-left:3px solid var(--green);border-radius:0 2mm 2mm 0;padding:2.6mm 3.2mm;margin-top:3mm}
+.rec .lab{color:var(--green);font-weight:700;font-size:6.8pt;letter-spacing:.12em;text-transform:uppercase;margin-bottom:.8mm;display:block}
+.tag{display:inline-block;font-size:6.4pt;font-weight:700;letter-spacing:.08em;text-transform:uppercase;padding:.5mm 1.8mm;border-radius:1mm;margin-left:1.5mm;vertical-align:1px}
+.t-pri{background:var(--navy);color:#fff}
+.t-sec{background:#e6e9ef;color:var(--navy)}
+.t-no{background:#f1f1f1;color:#9a9a9a}
+.chk{list-style:none}
+.chk li{position:relative;padding-left:5.2mm;margin:1.1mm 0}
+.chk li:before{content:"";position:absolute;left:0;top:.6mm;width:3mm;height:3mm;border-radius:50%;border:1.2px solid #9aa3b2;background:#fff}
+.chk li.on:before{background:var(--navy);border-color:var(--navy)}
+.chk li.half:before{background:linear-gradient(90deg,var(--navy) 50%,#fff 50%);border-color:var(--navy)}
+.chk li.off{color:#8b919c}
+.chk .why{display:block;color:var(--ink2);font-size:7.3pt;margin-top:.3mm}
+ul.dots{padding-left:4mm}
+ul.dots li{margin:.9mm 0}
+ol.num{padding-left:4.4mm}
+ol.num li{margin:1mm 0}
+table{width:100%;border-collapse:collapse;font-size:7.6pt}
+th{background:var(--navy);color:#fff;text-align:left;font-weight:600;padding:1.8mm 2mm;font-size:7.2pt}
+td{border-bottom:1px solid var(--line);padding:1.7mm 2mm;vertical-align:top}
+tr:nth-child(even) td{background:#fafafa}
+.v{font-weight:700;text-align:center;width:9mm}
+.v.y{color:var(--green)}.v.p{color:#b7791f}.v.n{color:var(--rust)}
+.quote{border-left:2px solid var(--gold);padding:.4mm 0 .4mm 2.6mm;margin:1.4mm 0;color:var(--ink2);font-style:italic}
+.quote span{display:block;font-style:normal;color:var(--mute);font-size:6.8pt;margin-top:.4mm}
+.fromto{display:grid;grid-template-columns:1fr 8mm 1fr;align-items:stretch;gap:0;margin-top:1.6mm}
+.fromto .box{border-radius:2.2mm;padding:3mm}
+.fromto .from{background:var(--rustsoft)}
+.fromto .to{background:var(--greensoft)}
+.fromto .arrow{display:flex;align-items:center;justify-content:center;font-size:13pt;color:var(--navy);font-weight:700}
+.kicker{font-size:6.8pt;letter-spacing:.12em;text-transform:uppercase;font-weight:700;color:var(--mute);margin-bottom:.6mm;display:block}
+.hook{background:#fff;border:1px solid var(--line);border-radius:1.8mm;padding:1.7mm 2.6mm;margin:1.2mm 0;font-weight:500}
+.hook small{display:block;color:var(--mute);font-weight:400;font-size:6.9pt;margin-top:.3mm}
+.formula{border:1px solid var(--line);border-radius:2.2mm;padding:3mm}
+.formula .name{display:inline-block;background:var(--goldsoft);color:var(--navy);font-weight:700;padding:.6mm 2mm;border-radius:1mm;margin-bottom:1.6mm}
+.formula dl{display:grid;grid-template-columns:17mm 1fr;gap:1mm 2mm}
+.formula dt{font-weight:700;color:var(--navy)}
+.legend{display:flex;gap:5mm;flex-wrap:wrap;font-size:7.4pt;color:var(--ink2);margin-top:2mm}
+/* cover */
+.cover{background:var(--navy);color:#fff;padding:0}
+.cover .inner{position:absolute;inset:0;padding:30mm 20mm}
+.cover .brand{display:flex;align-items:center;gap:3mm;font-size:8.6pt;letter-spacing:.14em;text-transform:uppercase;color:#d7dce4}
+.cover .brand .mono{width:10mm;height:10mm;font-size:9pt;margin:0}
+.cover h1{color:#fff;font-size:33pt;line-height:1.08;margin-top:52mm;font-weight:600}
+.cover .sub{margin-top:6mm;font-size:11pt;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);font-weight:600}
+.cover .rule{width:40mm;height:2px;background:var(--gold);margin:9mm 0}
+.cover .for{font-size:10pt;color:#d7dce4;line-height:1.6}
+.cover .for b{color:#fff}
+.cover .bottom{position:absolute;bottom:20mm;left:20mm;right:20mm;display:flex;justify-content:space-between;font-size:7.6pt;color:#9aa6b6;border-top:1px solid #2a3d52;padding-top:3mm}
+.cover .big1{position:absolute;right:-18mm;top:70mm;font-family:"Inter Display";font-weight:800;font-size:250pt;color:rgba(214,166,52,.07);letter-spacing:-.04em;line-height:1}
+.back{background:var(--navy);color:#fff}
+.back .inner{position:absolute;inset:0;padding:0 24mm;display:flex;flex-direction:column;justify-content:center}
+.verdict{background:var(--navy);color:#fff;border-radius:2.4mm;padding:4mm 4.6mm;margin:2mm 0 3mm}
+.verdict .k{color:var(--gold);font-weight:700;font-size:6.8pt;letter-spacing:.14em;text-transform:uppercase}
+.verdict .big{font-family:"Inter Display";font-size:15pt;font-weight:600;margin-top:1mm;line-height:1.2}
+</style>
+</head>
+<body>
+
+<!-- ============ COVER ============ -->
+<div class="page cover">
+  <div class="big1">1%</div>
+  <div class="inner">
+    <div class="brand"><span class="mono">MF</span>Mohammed Filali · Creative Strategist</div>
+    <h1>Consumer<br>Psychology<br>Worksheet</h1>
+    <div class="sub">Campaign Planning Guide &amp; Creative Diagnosis</div>
+    <div class="rule"></div>
+    <div class="for">Prepared for <b>Richard Norris</b><br><b>Project 1%</b>, the 35-Day Foundation<br>October 2026</div>
+    <div class="bottom"><span>Built on: Schwartz's awareness stages · Maslow · Life-Force 8 · Cialdini</span><span>Confidential</span></div>
+  </div>
+</div>
+
+<!-- ============ SUMMARY ============ -->
+<div class="page">
+  <div class="topbar"><span><span class="mono">MF</span><b>Project 1%</b> · Consumer Psychology Worksheet</span><span>Summary</span></div>
+  <span class="pill">BEFORE YOU READ</span>
+  <h1>The short answer</h1>
+  <p class="lead">The question behind this worksheet: were the 13 live Project 1% ads built from a psychology plan, or made first and planned later? Each section answers one part of the plan, sets what it should be, and checks the live ads against it.</p>
+
+  <div class="verdict"><div class="k">Verdict</div><div class="big">Strong instincts and a strong founder story, but no plan connecting them. Every ad tries to do the whole journey at once, so no ad does any one job well.</div></div>
+
+  <h2>What the evidence shows</h2>
+  <ol class="num">
+    <li><b>Every ad targets the same awareness level, then runs the whole funnel.</b> 10 of 13 hooks speak to men who already feel the problem. Then each ad races through credentials, mechanism, offer and guarantee. No ad is built to reframe the problem, prove the method, or close the sale.</li>
+    <li><b>The test can't tell you which message works.</b> All 13 ads share the same headline and the same 600-word caption. Only the video changes.</li>
+    <li><b>The most-delivered ad is the full 25-minute sales video, shown to cold audiences.</b> That's a closing asset used as an opener.</li>
+    <li><b>The emotional driver is off-target.</b> The caption opens on a "$200,000 Porsche 911 Turbo" and closes on "the Rolex". It sells status objects to men whose pain is that status objects didn't work. The drivers the research points to (protecting loved ones, freedom from pain and fear, belonging) are mentioned once or twice and never lead.</li>
+    <li><b>Some persuasion principles are breaking trust.</b> Scarcity changes at every step. The price anchor jumps from "under $97" to a "$5,626 value" for $9. A free gift is promised in the video and never delivered.</li>
+  </ol>
+
+  <h2>What's already working (keep it)</h2>
+  <ul class="dots">
+    <li><b>Richard's true story is the strongest asset in the account:</b> the slipped discs, the floor of the apartment in 2025, the relationship he lost. It's the "pratfall effect" (see section 3) waiting to lead.</li>
+    <li><b>Strong individual hooks:</b> "Most men upgrade the car, the income, the title. Never the operating system" (ad #6), and "This is specifically for men already winning on paper" (ads #4 and #10).</li>
+    <li><b>Ad #9, "Stop fixing one pillar"</b>, is the closest to on-strategy: honest, vulnerable, and no confusing price line.</li>
+    <li><b>Format variety is already there:</b> talking head, kinetic text, whiteboard, motion graphics.</li>
+  </ul>
+
+  <h2>Sources</h2>
+  <p class="small">All 13 active Meta ads (scripts transcribed, 10–11 Oct 2026). The live funnel at go.richard-norris.com (page, form, checkout, confirmation), and the full 24:50 sales video. 36 public forum posts from business owners (Reddit, BiggerPockets, Fastlane, Bogleheads; 2021–2026) and 35 Blind threads from salaried professionals. Persona and positioning documents prepared alongside this worksheet.</p>
+
+  <h2>How to read the pages</h2>
+  <div class="legend">
+    <span><span class="tag t-pri">Primary</span> lead with this</span>
+    <span><span class="tag t-sec">Secondary</span> support with this</span>
+    <span><span class="tag t-no">Not used</span> deliberately left out</span>
+  </div>
+  <div class="legend" style="margin-top:2.5mm">
+    <span style="color:var(--rust);font-weight:700">■ Current ads</span><span>what the live ads do today</span>
+    <span style="color:var(--green);font-weight:700">■ Recommendation</span><span>what to change</span>
+  </div>
+  <div class="foot"><span>Mohammed Filali · Creative Strategist</span><span>Project 1% · October 2026</span></div>
+</div>
+
+<!-- ============ SECTION 1 ============ -->
+<div class="page">
+  <div class="topbar"><span><span class="mono">MF</span><b>Project 1%</b> · Consumer Psychology Worksheet</span><span>Section 1</span></div>
+  <span class="pill">SECTION 1</span>
+  <h1>Audience Awareness Assessment</h1>
+  <p class="lead">Where does the target man sit on Eugene Schwartz's awareness spectrum? The target is the self-made builder of 32–48 who has compounded his money and depreciated himself.</p>
+
+  <div class="grid2">
+    <div class="card"><h3>Unaware <span class="tag t-no">Small share</span></h3><p class="muted small">Doesn't know he has a problem.</p><p>A few men still read their exhaustion as "just a busy season". They're reached by pattern interrupts, not pitches.</p></div>
+    <div class="card sel"><h3>Problem aware <span class="tag t-pri">Primary</span></h3><p class="muted small">Knows the problem, not the solution.</p><p>Most of the market. He feels the symptoms: burnout, fog, emptiness, absence at home, the weight of every decision alone.</p></div>
+    <div class="card sec"><h3>Solution aware <span class="tag t-sec">Secondary</span></h3><p class="muted small">Knows solutions exist, not this one.</p><p>He has already tried the usual fixes: hire more people, take a break, sell the business, read <i>The E-Myth</i>, a 75-day challenge, therapy, testosterone.</p></div>
+    <div class="card sec"><h3>Product aware <span class="tag t-sec">Secondary</span></h3><p class="muted small">Knows the product, hasn't bought.</p><p>Richard's warm audience (property clients, YouTube, email) knows <i>Richard</i> but not Project 1%. It's small, but it trusts him most.</p></div>
+    <div class="card"><h3>Most aware <span class="tag t-no">Retargeting only</span></h3><p class="muted small">Ready to buy with the right offer.</p><p>Men who watched the video, visited the page or started checkout. This is where the $9 bet belongs.</p></div>
+    <div class="card" style="background:var(--goldsoft);border-color:var(--goldsoft)"><h3>Market sophistication: high</h3><p>"Balance", "have it all", "1%", "brotherhood" and "challenge" are claims he has heard many times. Schwartz's answer for a market like this: <b>reframe the problem</b> and show a <b>unique mechanism</b>.</p></div>
+  </div>
+
+  <h2>What the research shows</h2>
+  <p>He's aware of the <b>symptoms</b> but misdiagnoses the <b>cause</b>. He treats it as an operations problem (hire, delegate, sell, take a break) or a willpower problem (grind harder, another challenge).</p>
+  <div class="grid2" style="margin-top:1mm">
+    <div>
+      <div class="quote">"Should I sell and move on or get fat off the profit and hate life??"<span>Business owner, 20+ years in the industry, Florida</span></div>
+      <div class="quote">"I feel like this might just be an escape fantasy."<span>Manufacturing owner</span></div>
+    </div>
+    <div>
+      <div class="quote">"It's not the hours I work, but that I can't be present with my family when I'm not working."<span>Entrepreneur, 35, married with a baby</span></div>
+      <div class="quote">"Hours were never my problem. The thing that wrecked me was carrying every open decision in my head all weekend."<span>Founder replying in a thread</span></div>
+    </div>
+  </div>
+
+  <h2>Based on this assessment, the primary messaging approach should be:</h2>
+  <div class="answer"><b>Validate, reframe, then show the mechanism.</b> Name his symptoms in his own words so he feels seen ("it's not just me"). Then reframe the cause: it isn't the hours, the staff or the business model. He has built systems for everything except the man running it ("compounding money, depreciating yourself"). Next, show the mechanism (ten rules written on day 1, one lesson a day, a nine-line scorecard). Show the offer (the $9 bet) <b>only</b> to men who have already seen the reframe.</div>
+
+  <div class="diag"><span class="lab">Current ads</span>All 13 ads open at problem aware and close at most aware within the same ad. No ad is dedicated to the reframe (for the solution-aware man) or to the offer (for retargeting). The ad Meta delivers most, the full 25-minute sales video, is a most-aware asset served to cold, problem-aware audiences.</div>
+  <div class="foot"><span>Mohammed Filali · Creative Strategist</span><span>Section 1 · Awareness</span></div>
+</div>
+
+<!-- ============ SECTION 2a ============ -->
+<div class="page">
+  <div class="topbar"><span><span class="mono">MF</span><b>Project 1%</b> · Consumer Psychology Worksheet</span><span>Section 2</span></div>
+  <span class="pill">SECTION 2</span>
+  <h1>Emotional Drivers Analysis</h1>
+  <p class="lead">Which core human needs does Project 1% address? Selections are based on what these men say in public forums, not on what the ads currently say.</p>
+
+  <div class="grid2">
+    <div class="card">
+      <h3>Maslow's Hierarchy</h3>
+      <ul class="chk">
+        <li class="off">Physiological (basic survival needs)<span class="why">Pain and sleep show up, but they aren't why he buys.</span></li>
+        <li class="half">Safety (security, stability, protection) <span class="tag t-sec">Secondary</span><span class="why">Protecting what he built: his body, his family, "losing half the business in a divorce".</span></li>
+        <li class="on">Belonging (connection, relationships, community) <span class="tag t-pri">Primary</span><span class="why">"Every other man I know has a 9–5, so there's nobody I can really ask." Presence at home. A brotherhood.</span></li>
+        <li class="on">Esteem (recognition, status, respect, achievement) <span class="tag t-pri">Primary</span><span class="why">Self-respect and respect at home: "I'm always the problem solver, not the problem bringer."</span></li>
+        <li class="half">Self-actualization (growth, creativity, purpose) <span class="tag t-sec">Secondary</span><span class="why">The lost drive: "that drive/spark is gone", "I'm in a fog". Who he becomes next.</span></li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Life-Force 8 Drives</h3>
+      <ul class="chk">
+        <li class="half">Survival, enjoyment of life, life extension <span class="tag t-sec">Secondary</span><span class="why">A body that still works at 60. Actually enjoying what he paid for.</span></li>
+        <li class="off">Enjoyment of food and beverages</li>
+        <li class="on">Freedom from fear, pain and danger <span class="tag t-pri">Primary</span><span class="why">The back, the burnout, the marriage going quiet, the fear of losing it all.</span></li>
+        <li class="off">Sexual companionship<span class="why">Present underneath (desirability, testosterone), but never lead with it.</span></li>
+        <li class="off">Comfortable living conditions<span class="why">He already has them. That's the point.</span></li>
+        <li class="half">To be superior; winning <span class="tag t-sec">Secondary</span><span class="why">He still wants to win. Reframe it as winning without paying the hidden bill.</span></li>
+        <li class="on">Care and protection of loved ones <span class="tag t-pri">Primary</span><span class="why">"Our baby is never going to be a baby again." Present for his wife and kids.</span></li>
+        <li class="half">Social approval <span class="tag t-sec">Secondary</span><span class="why">The respect of his wife, his kids and his peers. The man they copy.</span></li>
+      </ul>
+    </div>
+  </div>
+
+  <h2>The primary emotional transformation Project 1% delivers:</h2>
+  <div class="fromto">
+    <div class="box from"><span class="kicker">From</span><b>Successful on paper, empty and alone with it.</b> Never off. Never fully home. Carrying every decision himself while his body sends the bill.</div>
+    <div class="arrow">→</div>
+    <div class="box to"><span class="kicker">To</span><b>Still building, but whole.</b> Present at home, strong in his body, clear in his head, and no longer alone with it.</div>
+  </div>
+
+  <div class="diag"><span class="lab">Current ads</span>The lead driver today is status and comfort objects: the Porsche, the Rolex, the penthouse, "the 1%", "an elite body". That pulls on <i>To be superior</i> and <i>Comfortable living</i>, which this man already has. <i>Care of loved ones</i> appears as one line ("make it home for dinner"). <i>Belonging</i> is a phrase ("a private brotherhood") that's never shown. Richard's injuries are used as credentials, not as the viewer's own fear.</div>
+  <div class="foot"><span>Mohammed Filali · Creative Strategist</span><span>Section 2 · Emotional drivers</span></div>
+</div>
+
+<!-- ============ SECTION 2b ============ -->
+<div class="page">
+  <div class="topbar"><span><span class="mono">MF</span><b>Project 1%</b> · Consumer Psychology Worksheet</span><span>Section 2 (continued)</span></div>
+  <span class="pill">SECTION 2 · CONTINUED</span>
+  <h1>The emotions, in his words</h1>
+  <p class="lead">★ marks the primary emotions to build creative around. Each line is grounded in a public post from a business owner or high earner.</p>
+
+  <div class="grid2">
+    <div>
+      <h2 style="margin-top:0">Project 1% helps him avoid feeling:</h2>
+      <table>
+        <tr><th>Emotion</th><th>In his words</th></tr>
+        <tr><td><b>★ Emptiness</b></td><td>"Being in a 4* hotel swimming in the pool and feeling empty."</td></tr>
+        <tr><td><b>★ Isolation</b></td><td>"It's just me, staring at a laptop… really hard for outsiders to understand."</td></tr>
+        <tr><td><b>★ Guilt toward family</b></td><td>"Our baby is never going to be a baby again."</td></tr>
+        <tr><td><b>★ Fear of the break</b></td><td>"My body/mind is having a harder time coping."</td></tr>
+        <tr><td>Exhaustion</td><td>"Feeling deeply burnt out."</td></tr>
+        <tr><td>Fog, lost drive</td><td>"This time I'm in a fog. I don't have the drive."</td></tr>
+        <tr><td>Being trapped</td><td>"My business is like a child and constantly needs undivided attention."</td></tr>
+        <tr><td>Pride that blocks help</td><td>"I'm always the problem solver, not the problem bringer. It's hard to be vulnerable."</td></tr>
+        <tr><td>Irritability</td><td>"My threshold for lashing out is quite low."</td></tr>
+        <tr><td>Guilt about stopping</td><td>"I felt guilty for not taking action."</td></tr>
+      </table>
+    </div>
+    <div>
+      <h2 style="margin-top:0">Project 1% helps him feel:</h2>
+      <table>
+        <tr><th>Emotion</th><th>What it looks like</th></tr>
+        <tr><td><b>★ Present</b></td><td>Home for dinner, and actually there. Phone face down.</td></tr>
+        <tr><td><b>★ At peace</b></td><td>"The work stopped following me home." Chest not tight on waking.</td></tr>
+        <tr><td><b>★ Proud</b></td><td>Self-respect earned by keeping his own word, not by his bank balance</td></tr>
+        <tr><td><b>★ Not alone</b></td><td>"Looking for like-minded people to hang with." A room of builders.</td></tr>
+        <tr><td>Clear and in control</td><td>Decisions made in advance, not argued at 6am</td></tr>
+        <tr><td>Strong</td><td>A body that works, training without paying for it</td></tr>
+        <tr><td>Driven again</td><td>The spark back, pointed at more than one number</td></tr>
+        <tr><td>Free</td><td>"Enough" as a decision, not a defeat</td></tr>
+      </table>
+      <h2>What Project 1% does <u>not</u> fix (keep it out of the copy)</h2>
+      <ul class="dots small">
+        <li>Business volatility: slow months, competitors, theft, a hacked website</li>
+        <li>Clinical depression or anxiety. These need a professional.</li>
+        <li>Grief</li>
+        <li>Staffing and operations problems</li>
+        <li>A marriage that needs couples therapy</li>
+        <li>The discomfort of change itself. 35 days of keeping your word is hard. Say so.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="rec"><span class="lab">Recommendation</span>Build creative around the four ★ pairs: <b>emptiness → present</b>, <b>isolation → not alone</b>, <b>guilt toward family → present at home</b>, <b>fear of the break → strong</b>. For a brand built on honesty, naming what it doesn't fix earns trust rather than costing sales.</div>
+  <div class="foot"><span>Mohammed Filali · Creative Strategist</span><span>Section 2 · Emotional drivers</span></div>
+</div>
+
+<!-- ============ SECTION 3 ============ -->
+<div class="page">
+  <div class="topbar"><span><span class="mono">MF</span><b>Project 1%</b> · Consumer Psychology Worksheet</span><span>Section 3</span></div>
+  <span class="pill">SECTION 3</span>
+  <h1>Persuasion Principles Selection</h1>
+  <p class="lead">Pick 2–3 primary principles to lead the creative, and use the rest only in support. The current ads use seven or more in a single ad.</p>
+
+  <div class="grid3">
+    <div class="card sel"><h3>Pratfall effect <span class="tag t-pri">Primary</span></h3><p class="muted small">Strategic vulnerability for credibility</p><p><b>How:</b> lead with the scars before the wins. The discs at 31, the floor in 2025, the stepkids' games he went to without really being there. "I was the coach with the penthouse and no health."</p><p class="small" style="color:var(--rust)"><b>Today:</b> used, but undercut by the Porsche, Rolex and St Regis lines.</p></div>
+    <div class="card sel"><h3>Unity <span class="tag t-pri">Primary</span></h3><p class="muted small">Creating tribal identity</p><p><b>How:</b> "builders with something to lose": men who solve every problem except their own. A cohort that starts together, and a brotherhood earned by finishing.</p><p class="small" style="color:var(--rust)"><b>Today:</b> weak. "If you're a simp, don't click" pushes men out instead of bringing the right ones in.</p></div>
+    <div class="card sel"><h3>Commitment <span class="tag t-pri">Primary</span></h3><p class="muted small">Small yeses leading to bigger ones</p><p><b>How:</b> the $9 bet → write your ten rules on day 1 → 35 lessons → the finishers' brotherhood → the strategy call.</p><p class="small" style="color:var(--rust)"><b>Today:</b> the "I give my word" contract is at checkout (good), but the call is pushed <i>before</i> day 1, which breaks the ladder.</p></div>
+  </div>
+
+  <h2>Supporting principles</h2>
+  <table>
+    <tr><th style="width:22%">Principle</th><th style="width:40%">How to use it</th><th>Today</th></tr>
+    <tr><td><b>Loss aversion</b> <span class="tag t-sec">Support</span></td><td>The cost of waiting, in his words: "the baby is never going to be a baby again". Worst case vs best case.</td><td>Only in the video's last minutes</td></tr>
+    <tr><td><b>Anchoring</b> <span class="tag t-sec">Support</span></td><td>One honest anchor: 1:1 with Richard costs $25k a year</td><td style="color:var(--rust)">Inflated: a $5,626 "value" and a price that steps down from $2,997</td></tr>
+    <tr><td><b>Authority</b> <span class="tag t-sec">Support</span></td><td>3,000+ clients and $10M+ through Property Consulting, a real property portfolio, real mentors. Use it <i>after</i> the vulnerability.</td><td style="color:var(--rust)">Overused: opens or anchors most ads</td></tr>
+    <tr><td><b>Social proof</b> <span class="tag t-sec">Later</span></td><td>Stories from cohort 1, including what their partners noticed. Until then, borrow honestly from Property Consulting.</td><td style="color:var(--rust)">"Thousands of men in a growing movement" while the group has 11 members</td></tr>
+    <tr><td><b>Reciprocity</b> <span class="tag t-sec">Support</span></td><td>Give first: a free 7-day "write your code" email series, or the morning and evening routine. Then deliver it.</td><td style="color:var(--rust)">Promised in the video, never delivered</td></tr>
+    <tr><td><b>Liking</b> <span class="tag t-sec">Support</span></td><td>Council estate to Dubai, British, a stepdad, "not the biggest name"</td><td>Present, works well</td></tr>
+    <tr><td><b>Scarcity</b> <span class="tag t-no">Only if real</span></td><td>Only a genuine cohort start date</td><td style="color:var(--rust)">Changes at every step: "first 100", "September 1st", "limited time"</td></tr>
+  </table>
+
+  <div class="rec"><span class="lab">Recommendation</span><b>Lead with pratfall, unite with unity, convert with commitment.</b> The order inside every ad matters: scars, then "men like us", then proof, then one small yes. Remove fake scarcity and inflated anchors entirely. For a man who distrusts gurus, one broken principle cancels the rest.</div>
+  <div class="foot"><span>Mohammed Filali · Creative Strategist</span><span>Section 3 · Persuasion</span></div>
+</div>
+
+<!-- ============ SECTION 4 ============ -->
+<div class="page">
+  <div class="topbar"><span><span class="mono">MF</span><b>Project 1%</b> · Consumer Psychology Worksheet</span><span>Section 4</span></div>
+  <span class="pill">SECTION 4</span>
+  <h1>Message Framing Matrix</h1>
+  <p class="lead">One core message, framed five ways. Each frame suits a different man on a different day.</p>
+
+  <div class="answer" style="background:var(--navy);color:#fff"><span class="kicker" style="color:var(--gold)">Core message</span><span style="font-size:11pt;font-weight:600;line-height:1.35">You've spent years compounding your money and depreciating yourself. Project 1% is the 35-day foundation for building the man first, from a builder who paid the full price for success and rebuilt.</span></div>
+
+  <table style="margin-top:3mm">
+    <tr><th style="width:17%">Frame</th><th style="width:43%">Example for Project 1%</th><th style="width:13%">Best for</th><th>In the current ads?</th></tr>
+    <tr><td><b>Benefit</b></td><td>"Keep building, and come home with your back, your marriage and your peace intact."</td><td>Problem aware</td><td>Partly. "Make it home for dinner" (ads #3, #5, #7, #12) is good, but buried at second 12.</td></tr>
+    <tr><td><b>Pain avoidance</b></td><td>"It's not the hours you work. It's that you're never actually off." · "Don't wait for the slipped disc."</td><td>Problem aware</td><td>Yes, but as an insult ("a dumb idea… goofy challenges") rather than his pain.</td></tr>
+    <tr><td><b>Status / identity</b></td><td>"Builders maintain their assets. You're the one you've neglected." · "The real 1% didn't trade everything to get there."</td><td>Solution aware</td><td>Yes, but through objects (Porsche, Rolex). Swap to identity: builder, provider, the man his kids copy.</td></tr>
+    <tr><td><b>Process / mechanism</b></td><td>"Day 1, you write ten rules while your head is clear. Every day after, one lesson and one action. A nine-line scorecard replaces the single line called net worth."</td><td>Solution &amp; product aware</td><td>Partly: the operating-system metaphor (#6) and the four pillars (#4, #10). The mechanism changes name from ad to ad.</td></tr>
+    <tr><td><b>Testimonial / story</b></td><td>"At 31 my back gave out. In 2025 I was on the floor of my apartment, business at its best, with no one to call." Later: member stories and what their partners noticed.</td><td>Product aware</td><td>Yes: Richard's own story (#9, #11). No customer stories yet.</td></tr>
+  </table>
+
+  <div class="diag"><span class="lab">Current ads</span>The ads <i>did</i> use several frames, which is good instinct. But each frame wasn't matched to an awareness stage, the mechanism has four different names, and every ad carries the same caption. So the test can't show which frame wins.</div>
+  <div class="rec"><span class="lab">Recommendation</span>Give each frame its own ads, each with its own headline and caption. Then the numbers show which frame resonates (for example: pain avoidance vs identity), not just which video holds attention.</div>
+  <div class="foot"><span>Mohammed Filali · Creative Strategist</span><span>Section 4 · Framing</span></div>
+</div>
+
+<!-- ============ SECTION 5 ============ -->
+<div class="page">
+  <div class="topbar"><span><span class="mono">MF</span><b>Project 1%</b> · Consumer Psychology Worksheet</span><span>Section 5</span></div>
+  <span class="pill">SECTION 5</span>
+  <h1>Hook Development</h1>
+  <p class="lead">New hooks built from the men's own language, matched to their awareness level.</p>
+
+  <div class="grid3">
+    <div>
+      <span class="kicker">For unaware / problem aware</span>
+      <div class="hook">"It's not the hours you work. It's that you're never actually off."<small>From: "not the hours… I can't be present"</small></div>
+      <div class="hook">"You've fixed every problem in your business except the man running it."<small>Reframe</small></div>
+      <div class="hook">"Every other man you know has a 9–5. Nobody gets what this feels like."<small>From: "nobody I can really ask"</small></div>
+      <div class="hook">"Four-star hotel. Pool. Phone off. And you still feel nothing?"<small>From: "swimming in the pool and feeling empty"</small></div>
+      <div class="hook">"Always the problem solver. Never the problem bringer."<small>From a 40-year-old plumbing company owner</small></div>
+    </div>
+    <div>
+      <span class="kicker">For solution / product aware</span>
+      <div class="hook">"Hiring more people won't fix this. Neither will selling the business."<small>Against the operations fixes he's tried</small></div>
+      <div class="hook">"You don't need another 75-day challenge. You need ten rules you wrote while your head was clear."<small>Mechanism vs willpower</small></div>
+      <div class="hook">"Therapy talks about it. Hustle coaches shout over it. This is one decision a day for 35 days."<small>Positioning</small></div>
+      <div class="hook">"Most programs fix one pillar. This one fixes the man holding all four."<small>Builds on ad #9</small></div>
+    </div>
+    <div>
+      <span class="kicker">For most aware</span>
+      <div class="hook">"$9. 35 days. Worst case, you lose a coffee."<small>The $9 bet</small></div>
+      <div class="hook">"Do all 35 days. If nothing changes, get your $9 back."<small>Completion guarantee</small></div>
+      <div class="hook">"You watched the video. Here's the $9 bet."<small>Retargeting</small></div>
+      <div class="hook">"The next cohort starts Monday. We start together."<small>Only with a real date</small></div>
+    </div>
+  </div>
+
+  <h2>The current hooks, mapped</h2>
+  <p class="small" style="color:var(--rust);margin-bottom:1.6mm"><b>Current ads:</b> no hook is written for the most-aware man, only one (#9) differentiates, and four ads share one hook.</p>
+  <table>
+    <tr><th style="width:9%">Ad</th><th style="width:47%">Opening line</th><th style="width:17%">Awareness level</th><th>Verdict</th></tr>
+    <tr><td>Caption</td><td>"If you want a life that feels as good as a $200,000 Porsche 911 Turbo looks…"</td><td>Desire / status</td><td style="color:var(--rust)">Off strategy: sells the object</td></tr>
+    <tr><td>#1</td><td>"What you're about to hear… might make you angry… whispered in the back rooms"</td><td>Unaware / curiosity</td><td style="color:var(--rust)">Guru genre, off-promise</td></tr>
+    <tr><td>#2</td><td>"For ambitious men carrying real stress, real responsibility…"</td><td>Problem aware</td><td style="color:var(--green)">Good callout</td></tr>
+    <tr><td>#3 #5 #7 #12</td><td>"Cutting family time out… is a dumb idea for men who want to build wealth."</td><td>Problem aware</td><td style="color:#b7791f">One hook in 4 of 13 ads; calls him dumb</td></tr>
+    <tr><td>#4 #10</td><td>"This is specifically for men already winning on paper."</td><td>Problem aware</td><td style="color:var(--green)">Precise callout</td></tr>
+    <tr><td>#6</td><td>"Most men upgrade the car, the income, the title. Never the operating system."</td><td>Unaware / reframe</td><td style="color:var(--green)">Strongest reframe</td></tr>
+    <tr><td>#8</td><td>"If you're a man chasing more…"</td><td>Problem aware</td><td style="color:#b7791f">Broad</td></tr>
+    <tr><td>#9</td><td>"Stop trying to fix one pillar of your life while ignoring the other three."</td><td>Solution aware</td><td style="color:var(--green)">Differentiates</td></tr>
+    <tr><td>#11</td><td>"If I could go back 15 years, to when I was a 23-year-old medical device salesman…"</td><td>Problem aware / story</td><td style="color:var(--green)">Strong story</td></tr>
+    <tr><td>#13</td><td>"If my goal was to stop feeling stuck and actually feel happy again…"</td><td>Problem aware</td><td style="color:#b7791f">Generic wording</td></tr>
+  </table>
+  <div class="foot"><span>Mohammed Filali · Creative Strategist</span><span>Section 5 · Hooks</span></div>
+</div>
+
+<!-- ============ SECTION 6 ============ -->
+<div class="page">
+  <div class="topbar"><span><span class="mono">MF</span><b>Project 1%</b> · Consumer Psychology Worksheet</span><span>Section 6</span></div>
+  <span class="pill">SECTION 6</span>
+  <h1>Messaging Sequencing Plan</h1>
+  <p class="lead">Four exposures that move him one awareness stage at a time, instead of one ad that tries to do all four.</p>
+
+  <table>
+    <tr><th style="width:8%">Exposure</th><th style="width:16%">Awareness target</th><th style="width:27%">Key message</th><th style="width:15%">Emotional trigger</th><th style="width:15%">Call to action</th><th>Format</th></tr>
+    <tr><td><b>1st</b></td><td>Problem aware<br><span class="muted small">Cold, broad audience</span></td><td>Name the symptom in his words: "It's not the hours. It's that you're never actually off."</td><td>Recognition and relief: "it's not just me"</td><td>Watch Richard's story, or get the free 7-day code (soft)</td><td>Native note-style static; 30–60s Richard to camera</td></tr>
+    <tr><td><b>2nd</b></td><td>Problem → solution aware<br><span class="muted small">Engaged viewers, page visitors</span></td><td>The reframe: you've compounded your money and depreciated yourself. It isn't a workload problem.</td><td>Hope and curiosity</td><td>See how the 35 days work</td><td>Founder explainer; whiteboard or motion graphic of the Foundation</td></tr>
+    <tr><td><b>3rd</b></td><td>Product aware<br><span class="muted small">Page visitors, 50%+ viewers</span></td><td>Proof: Richard's rebuild (transformation photos), the stepdad story, the first members' voices</td><td>Trust and belonging</td><td>Try it for $9</td><td>Before-and-after static; member UGC; partner's-eye story</td></tr>
+    <tr><td><b>4th</b></td><td>Most aware<br><span class="muted small">Checkout abandoners, 75%+ viewers</span></td><td>The $9 bet: worst case vs best case, the completion guarantee, a real start date</td><td>Safety and real urgency</td><td>Start day 1 now</td><td>Offer static; short founder close</td></tr>
+  </table>
+
+  <div class="grid2" style="margin-top:4mm">
+    <div class="diag" style="margin-top:0"><span class="lab">Current ads</span>Every ad runs all four steps in one video. The ad with the most delivery sends cold viewers straight to the step-4 asset, a 25-minute sales video. Nothing in the account is set up for exposures 2–4 to reach the men who engaged with exposure 1.</div>
+    <div class="rec" style="margin-top:0"><span class="lab">Recommendation</span>Run broad, with creative diversity across all four stages, so the algorithm finds each man the right message. Then make sure the 25-minute video and the $9 offer reach men who have already engaged, not strangers.</div>
+  </div>
+
+  <h2>Repetition without fatigue</h2>
+  <ul class="dots">
+    <li><b>Same core message, different formats:</b> talking head, native static, whiteboard, member UGC.</li>
+    <li><b>Same core message, different words:</b> "never actually off" / "the business follows you home" / "you're there, but you're not there".</li>
+    <li><b>Refresh hooks and thumbnails before the message changes.</b> Keep the promise identical from ad to checkout.</li>
+  </ul>
+  <div class="foot"><span>Mohammed Filali · Creative Strategist</span><span>Section 6 · Sequencing</span></div>
+</div>
+
+<!-- ============ SECTION 7 ============ -->
+<div class="page">
+  <div class="topbar"><span><span class="mono">MF</span><b>Project 1%</b> · Consumer Psychology Worksheet</span><span>Section 7</span></div>
+  <span class="pill">SECTION 7</span>
+  <h1>Creative Evaluation Checklist</h1>
+  <p class="lead">The 10-point check, applied to the 13 live ads as a set. <span style="color:var(--green);font-weight:700">✓</span> passes · <span style="color:#b7791f;font-weight:700">~</span> partly · <span style="color:var(--rust);font-weight:700">✗</span> fails.</p>
+
+  <table>
+    <tr><th style="width:34%">Check</th><th class="v">Today</th><th>Why</th></tr>
+    <tr><td>Does it clearly address the right awareness level?</td><td class="v p">~</td><td>The hooks are problem aware, but each ad then runs to the offer. Ad #1 (a bottom-funnel asset) is served cold.</td></tr>
+    <tr><td>Does it tap into at least one powerful emotional driver?</td><td class="v y">✓</td><td>Yes, but the lead driver is status objects, not the research drivers (loved ones, fear and pain, belonging).</td></tr>
+    <tr><td>Does it emphasize transformation, not just features?</td><td class="v p">~</td><td>#3, #9 and #11 sell transformation. #4, #6 and #10 drift into features (four pillars, 35 lessons, a nine-line scorecard).</td></tr>
+    <tr><td>Does it leverage 2–3 persuasion principles effectively?</td><td class="v n">✗</td><td>Seven or more are stacked per ad. Scarcity and anchoring are inconsistent, and the promised gift is never delivered.</td></tr>
+    <tr><td>Is the hook strong enough to stop the scroll?</td><td class="v p">~</td><td>"Most men upgrade the car…" and "winning on paper" are strong. "Dumb idea" is used four times. "Might make you angry" is guru genre.</td></tr>
+    <tr><td>Is the primary benefit immediately clear?</td><td class="v p">~</td><td>"Build a 1% life" is abstract. "Make it home for dinner" is clear but arrives at second 12.</td></tr>
+    <tr><td>Would I be excited to see it as the target customer?</td><td class="v p">~</td><td>Richard's to-camera stories, yes. The Porsche and Rolex lines and "simp", no.</td></tr>
+    <tr><td>Have I created pattern interrupts or distinctive elements?</td><td class="v y">✓</td><td>Good format variety: kinetic text, whiteboard, operating-system graphics, two-camera talking head.</td></tr>
+    <tr><td>Does it address objections the audience might have?</td><td class="v p">~</td><td>The guarantee is in every ad. "I'm too busy", "another guru" and "I've tried challenges" are only handled in the video's closing FAQ.</td></tr>
+    <tr><td>Is the call to action clear and compelling?</td><td class="v n">✗</td><td>The ad price differs from checkout. The "button below this video" doesn't exist in the feed. The "short video" is 25 minutes. The "page that breaks down all 35 lessons" doesn't.</td></tr>
+  </table>
+
+  <h2>Areas for improvement</h2>
+  <ol class="num">
+    <li><b>One price, one promise, from ad to checkout.</b> The $9 bet, with a completion guarantee.</li>
+    <li><b>Split the creative by awareness stage</b> (section 6) instead of every ad doing everything.</li>
+    <li><b>Rewrite the shared caption.</b> Drop the Porsche and Rolex. Lead with loved ones, freedom from pain, belonging.</li>
+    <li><b>Lead with vulnerability, then authority.</b> Scars first, credentials second.</li>
+    <li><b>Remove fake scarcity and inflated value.</b> Deliver the promised free gift.</li>
+    <li><b>Give each ad its own headline and caption,</b> so tests measure the message, not just the video.</li>
+    <li><b>Move the 25-minute video to retargeting.</b> Build 30–60 second entry ads for cold audiences.</li>
+    <li><b>Make the page deliver what the ads promise:</b> curriculum, price, guarantee.</li>
+  </ol>
+  <div class="foot"><span>Mohammed Filali · Creative Strategist</span><span>Section 7 · Evaluation</span></div>
+</div>
+
+<!-- ============ SECTION 8 ============ -->
+<div class="page">
+  <div class="topbar"><span><span class="mono">MF</span><b>Project 1%</b> · Consumer Psychology Worksheet</span><span>Section 8</span></div>
+  <span class="pill">SECTION 8</span>
+  <h1>Winning Creative Formulas</h1>
+  <p class="lead">Four proven structures, each written out for Project 1% from Richard's true story and the men's own words.</p>
+
+  <div class="grid2">
+    <div class="formula"><span class="name">Problem → Agitation → Solution</span>
+      <dl>
+        <dt>Problem</dt><dd>"You're never actually off. Even on holiday, the business is in your head."</dd>
+        <dt>Agitate</dt><dd>"Your kids get what's left. Your back sends the bill. And the only person you'd call about it is you."</dd>
+        <dt>Solution</dt><dd>"35 days. One lesson a day. Ten rules you write on day 1, so the decisions are made before the 6am argument starts."</dd>
+      </dl></div>
+    <div class="formula"><span class="name">Feature → Advantage → Benefit</span>
+      <dl>
+        <dt>Feature</dt><dd>One lesson a day, most of them shorter than your commute.</dd>
+        <dt>Advantage</dt><dd>It fits a calendar that's already full. Nothing to add, nothing to reschedule.</dd>
+        <dt>Benefit</dt><dd>You change without stepping away from the business you built.</dd>
+      </dl></div>
+    <div class="formula"><span class="name">Before → After → Bridge</span>
+      <dl>
+        <dt>Before</dt><dd>"Early 2025: business at its best, me on the floor of my apartment, no one to call."</dd>
+        <dt>After</dt><dd>"Training again. Back intact. In the room when it matters."</dd>
+        <dt>Bridge</dt><dd>"The 35 principles I rebuilt on. That's Project 1%."</dd>
+      </dl></div>
+    <div class="formula"><span class="name">Objection → Counter → Reframe</span>
+      <dl>
+        <dt>Objection</dt><dd>"I've tried challenges. They last six weeks."</dd>
+        <dt>Counter</dt><dd>"This isn't a test of willpower. It runs on rules you wrote while your head was clear."</dd>
+        <dt>Reframe</dt><dd>"You don't need more discipline. You need fewer decisions."</dd>
+      </dl></div>
+  </div>
+
+  <div class="answer" style="margin-top:5mm;border-left:3px solid var(--gold)">
+    <span class="kicker">Remember</span>
+    <p>Psychology is how we find the right man and say something true in his own words. It is never a license to invent scarcity, inflate value or promise what the program can't deliver. For a brand whose promise is honesty, that line <b>is</b> the strategy.</p>
+  </div>
+
+  <h2>Next steps</h2>
+  <ol class="num">
+    <li><b>Fact sheet:</b> agree one version of every number in Richard's story, used everywhere.</li>
+    <li><b>Fix the funnel</b> (price, page, gift, call disclosure) before increasing spend.</li>
+    <li><b>Brief the first batch</b> of creative by awareness stage: native statics, Richard to camera, the transformation, then member UGC after cohort 1.</li>
+    <li><b>Judge the tests</b> on finish rate, refunds and qualified calls, not cost per $9 sale alone.</li>
+  </ol>
+  <div class="foot"><span>Mohammed Filali · Creative Strategist</span><span>Section 8 · Formulas</span></div>
+</div>
+
+<!-- ============ BACK ============ -->
+<div class="page back">
+  <div class="inner">
+    <div class="brand" style="display:flex;align-items:center;gap:3mm;font-size:8.6pt;letter-spacing:.14em;text-transform:uppercase;color:#d7dce4"><span class="mono" style="width:10mm;height:10mm;font-size:9pt;margin:0">MF</span>Mohammed Filali</div>
+    <div style="font-family:'Inter Display';font-size:26pt;font-weight:600;line-height:1.15;margin-top:8mm">Creative Strategist</div>
+    <div style="width:40mm;height:2px;background:var(--gold);margin:8mm 0"></div>
+    <p style="font-size:10pt;color:#cfd6df;max-width:120mm;line-height:1.6">Consumer psychology, positioning and creative strategy for founder-led brands. Built from research, not guesswork.</p>
+  </div>
+</div>
+
+</body>
+</html>
