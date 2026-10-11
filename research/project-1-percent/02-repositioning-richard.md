@@ -191,7 +191,10 @@ the message arrives as a man talking, not as an ad.
 Supreme: "don't come in here and tell us your stuff's too expensive, it's not for you." What a man pays tells him what
 he's joined.
 
-**Decision:**
+> **Updated 11 Oct 2026:** for now the price stays at $9, repositioned as "the $9 bet" (worst case vs best case, a
+> 35-day completion guarantee). See `08-the-9-dollar-offer.md`. The plan below is kept for a later price test.
+
+**Original decision (before the $9 bet):**
 
 1. **Kill the confusion.** One price, stated the same in the ad, video, page and checkout.
 2. **Core offer: a founding cohort at a real price**, with the 30-day guarantee carrying the risk (not a low price).
