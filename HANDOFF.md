@@ -7,7 +7,7 @@ Paste or upload this at the start of a new Claude chat or Cowork session. It hol
 ## 1. Who I am and my situation
 
 - Direct-response copywriter and email marketer since 2020, moving into **creative strategy for DTC brands**. Based in Morocco (GMT+1); I work UK and US East hours.
-- Spent 4 years in-house (May 2022 – May 2026) at a UK high-ticket property consulting business (Richard Norris).
+- Spent 4 years in-house (May 2022 – May 2026) at a UK high-ticket property consulting business. Internally I call the owner "Richard", but **never name him publicly**.
 - I need income fast after a divorce, so the priority is **paying clients quickly**, not being busy.
 - Email: mohammed@filalisystems.com
 
@@ -18,7 +18,8 @@ Paste or upload this at the start of a new Claude chat or Cowork session. It hol
 - The offer grew from **$120K a year to $1.8M+ a year** during my 4 years in-house.
 - **4,000+ calls booked, about $4.6M in sales** from book-a-call funnels and emails.
 - A Kajabi sales page I wrote stayed the control for a year. I wrote directly for coaches, including Dan Lok.
-- **Richard has given permission** to use his name and results as a case study, and I have the screenshots.
+- **I have permission** to use the results as a case study, and I have the screenshots.
+- **Never name him or his business publicly** (portfolio, LinkedIn, resume, Upwork, emails). Always say "a UK property consultant" or "a UK high-ticket property consulting business". Blur his name, face and branding in screenshots. Any testimonial from him is signed "Founder, UK property consulting business".
 
 **Rules:**
 - Never invent numbers (no hook rate or ROAS I don't have).
@@ -78,7 +79,7 @@ Paste or upload this at the start of a new Claude chat or Cowork session. It hol
 
 ## 8. Portfolio review (to do in the restructure)
 
-- **Put the Richard case study at the top** (beat 2 agencies, top 3 for 3+ years, screenshots).
+- **Put the property-consultant case study at the top** (anonymous: "a UK high-ticket property consultant"; beat 2 agencies, top 3 for 3+ years, screenshots with name and branding blurred).
 - **Best pieces to lead with:**
   1. The Stepprs Diane nurse native static ("Read this if your feet quit by 2 pm" + the foot-with-circles photo)
   2. The First Day Matt hockey native static ("He got my eyes. My laugh. And my eating habits." + the photo in hand)
